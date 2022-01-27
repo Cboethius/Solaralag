@@ -31,4 +31,4 @@ scale: 1,
 duration:0.1,
 ease:'bounce.out',
 autoAlpha: 0,
-})
+});
