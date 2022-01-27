@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anel Slijpcevic</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script defer src="code.js"></script>
+<Style>
+
+*{
+    padding:0;
+    margin: 0;
+
+}
+    *, *::before *::after{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+}
+
+.animation{
+    background: rgb(243, 243, 243);
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation img{
+    height: 100px;
+    width: 100%;
+}
+
+.mainbox{
+    height: 700px;
+    width: 400px;
+    background: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo{
+    height: 100px;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.logo img{
+    height: 100px;
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    border-bottom: solid black 0.1rem ;
+}
+
+.profile h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.profile img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+}
+
+.contactinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+}
+
+p, a{
+    padding: 1rem;
+    font-size: 1.4rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border-bottom: solid black 0.1rem ;
+}
+
+.address{
+    border: none;
+    font-size: 1rem;
+}
+
+</Style>
+</head>
+<body>
+
+    <div class="animation">
+        <img src="images/logo final.svg" alt="">
+    </div>
+
+    <div class="mainbox">
+        <div class="logo">
+            <img src="images/logo final.svg" alt="">
+        </div>
+        <div class="profile">
+            <h1>Anel Slijpcevic</h1>
+            <img src="images/anel.jpeg" alt="">
+        </div>
+        <div class="contactinfo">
+            <a href="https://www.solaralag.ch/">www.solaralag.ch</a>
+            <a href="mailto: info@solaralag.ch">info@solaralag.ch</a>
+            <a href="tel:+41764891819">+41 76 489 18 19</a>
+            <p class="address">
+                Birmensdorferstrasse 430 <br>
+                8055, Zurich Schweiz
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
